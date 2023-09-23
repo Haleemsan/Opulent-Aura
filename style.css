@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "gotham";
+    src:url(GothamBook.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "houstic";
+    src: url(Houstiq.ttf);
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 40px 60px 17px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 115px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.05em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 29px 50px;
+    font-family:  'gotham' , sans-serif;
+    transition: all 0.7s ease-in-out;
+}
+
+nav a:hover {
+    color: #9344AD;
+}
+
+nav {
+    padding-right: 250px;
+}
+
+.first {
+    color: #9344AD;
+    border-bottom: 3px solid #9344AD;
+    font-weight: 600;
+}
+
+.bag {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.bag:hover {
+    stroke: #0bf4bd;
+}
+
+.content {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4.5em;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    color: #0bf4bd;
+    font-family: 'houstic' , sans-serif;
+    font-weight: 300;
+}
+
+.btn {
+    color: black;
+    background-color: #0bf4bd;
+    position: absolute;
+    bottom: 75px;
+    left: 70px;
+    padding: 12px 24px;
+    font-size: 1.06em;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    color: #0bf4bd;
+    background-color: #4d2d48;
+    border: 1px solid #0bf4bd;
+}
